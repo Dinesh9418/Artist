@@ -1,0 +1,38 @@
+.services-main {
+  padding: 1%;
+  /* border: 2px solid red; */
+  height: 73vh;
+  background-color: rgba(178, 227, 227, 0.614);
+}
+.services-main h3 {
+  color: rgb(44, 49, 54);
+  font-size: 38px;
+  font-weight: 500;
+}
+.services-main p {
+  margin-left: 30%;
+  width: 40%;
+  color: rgb(44, 49, 54);
+  font-size: 18px;
+}
+.services-plan-main {
+  padding: 5px;
+  /* border: 2px solid black; */
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin-left: 15%;
+}
+.services-plan_1 {
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgb(76, 191, 202);
+  border-radius: 50%;
+}
+
+.services-plan_1 img {
+  padding: 5px;
+  height: 70%;
+  cursor: pointer;
+}
