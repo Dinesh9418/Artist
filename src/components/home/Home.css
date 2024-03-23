@@ -1,6 +1,6 @@
 .home-main {
   /* border: 2px solid red; */
-  height: 80vh;
+  height: 79vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* background-color: rgba(178, 227, 227, 0.614); */
@@ -56,11 +56,10 @@
   margin: auto;
   width: 450px;
   height: 450px;
-  /* border: 1px solid black; */
   border-radius: 50%;
 }
 .home_2_img {
-  margin: 5%;
+  /* margin: 5%; */
   padding: 5px;
   height: 80vh;
   width: 65%;

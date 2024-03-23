@@ -1,7 +1,7 @@
 .services-main {
   padding: 1%;
   /* border: 2px solid red; */
-  height: 73vh;
+  height: 90vh;
   background-color: rgba(178, 227, 227, 0.614);
 }
 .services-main h3 {
@@ -22,17 +22,24 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
-  margin-left: 15%;
+  margin-left: 10%;
 }
-.services-plan_1 {
+.services-plan_1 h4 {
+  width: 80%;
+
+  margin-left: 10%;
+  margin-top: 5px;
+}
+.services-plan_1 p {
+  /* border: 2px solid rgb(202, 76, 76); */
+  width: 105%;
+  margin-left: -5%;
+}
+
+.services-plan_1 img {
   width: 250px;
   height: 250px;
   border: 1px solid rgb(76, 191, 202);
   border-radius: 50%;
-}
-
-.services-plan_1 img {
-  padding: 5px;
-  height: 70%;
   cursor: pointer;
 }

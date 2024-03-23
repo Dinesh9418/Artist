@@ -6,62 +6,35 @@ const About = () => {
     <div className="about-main">
       <div className="main-wrapper">
         <h1>
-          Why <span>Choose</span> Us ?
+          OUR STATS
         </h1>
         <p>
-          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur,
+          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, Mr. Dinesh Jadhav
+          consectetur,Lorem Ipsum is simply dummy text of the printing and type setting
+          industry. Mr. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.
         </p>
       </div>
-      <div className="about-card">
-        <div className="about-card_1">
-          <div>
-            <p><i class="fa-solid fa-phone-volume"></i></p>
-          </div>
-          <div>
-            <h3>24 Hrs Support</h3>
-            <p>
-              {" "}
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur,
-            </p>
-          </div>
+      <div className="About">
+        <div className="About_1">
+          <h4>123 </h4>
+          <p>
+            Lorem Ipsum is simply and type setting industry.
+          </p>
         </div>
-        <div className="about-card_2"><div>
-          <p>ICON</p>
+        <div className="About_1">
+          <h4>123 </h4>
+          <p>
+            Lorem Ipsum is simply and type setting industry.
+          </p>
         </div>
-          <div>
-            <h3>Best Price</h3>
-            <p>
-              {" "}
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur,
-            </p>
-          </div></div>
-        <div className="about-card_3"><div>
-          <p>ICON</p>
+        <div className="About_1">
+          <h4>123 </h4>
+          <p>
+            Lorem Ipsum is simply and type setting industry.
+          </p>
         </div>
-          <div>
-            <h3>Verified License</h3>
-            <p>
-              {" "}
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur,
-            </p>
-          </div></div>
-        <div className="about-card_4"><div>
-          <p>ICON</p>
-        </div>
-          <div>
-            <h3>Free Cancellation</h3>
-            <p>
-              {" "}
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur,
-            </p>
-          </div></div>
       </div>
-    </div>
+    </div >
   );
 };
 

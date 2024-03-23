@@ -3,10 +3,11 @@ import "./Home.css";
 import Bike from "../../Assets/Images/bike.png";
 import { Link } from "react-router-dom";
 import Art from "../../Assets/Images/Art.svg"
+import Services from "../services/Services";
 
 const Home = () => {
   return (
-    <div className="home-main">
+    <>    <div className="home-main">
       <div className="home_1">
         <h1 className="home_1_heading">
           ART CLASS<span className="home_1_span"></span>
@@ -26,6 +27,8 @@ const Home = () => {
         <img className="home_2_img" src={Art} alt="Art_img" />
       </div>
     </div>
+      <Services />
+    </>
   );
 };
 
