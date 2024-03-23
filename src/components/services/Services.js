@@ -41,7 +41,6 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <About />
         </>
     );
 };

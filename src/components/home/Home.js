@@ -4,6 +4,8 @@ import Bike from "../../Assets/Images/bike.png";
 import { Link } from "react-router-dom";
 import Art from "../../Assets/Images/Art.svg"
 import Services from "../services/Services";
+import About from "../about/About";
+import Contact from "../contact/Contact"
 
 const Home = () => {
   return (
@@ -28,6 +30,8 @@ const Home = () => {
       </div>
     </div>
       <Services />
+      <About />
+      <Contact />
     </>
   );
 };
